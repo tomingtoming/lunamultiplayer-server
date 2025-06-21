@@ -1,0 +1,24 @@
+# Server data and config
+server-data/
+server-config/
+
+# Docker
+.dockerignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*.bak
+*~
