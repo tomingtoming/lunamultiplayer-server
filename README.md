@@ -7,7 +7,7 @@ Docker setup for [LunaMultiplayer](https://github.com/LunaMultiplayer/LunaMultip
 - Easy deployment with Docker and docker-compose
 - Persistent data storage for game saves and configuration
 - Automatic restart on failure
-- Based on Ubuntu 20.04 with .NET 5.0 runtime
+- Based on Ubuntu 20.04 with .NET 6.0 runtime
 
 ## Requirements
 
