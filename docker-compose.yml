@@ -2,9 +2,7 @@ services:
   lunamultiplayer-server:
     build: .
     container_name: lunamultiplayer-server
-    ports:
-      - "8800:8800/udp"
-      - "8801:8801/tcp"
+    network_mode: host
     volumes:
       - ./server-data:/app/LMPServer/Universe
       - ./server-config:/app/LMPServer/Config
